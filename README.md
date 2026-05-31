@@ -4,6 +4,8 @@ Dashboard simples em **Streamlit** para análise fictícia de vendas da loja Bam
 
 O projeto conecta em um banco **PostgreSQL**, carrega os dados de vendas com `pandas` e apresenta indicadores, gráficos e tabelas para acompanhar faturamento, lucro, produtos vendidos, estoque e sugestão de reposição.
 
+**Dashboard online:** https://bambole-kids-dashboard-fiz5pj7xc9bxx2yxs8apx4.streamlit.app/
+
 ---
 
 ## Visão geral
