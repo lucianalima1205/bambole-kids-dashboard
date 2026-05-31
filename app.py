@@ -104,7 +104,7 @@ df["ordem_mes_ano"] = df["ano"] * 100 + df["mes_numero"]
 # ==============================
 
 st.title("Dashboard de Vendas - Bambole Kids")
-st.write("Análise fictícia de vendas, estoque e comportamento de clientes.")
+st.write("Análise de vendas, estoque e comportamento de clientes com dados reais.")
 
 
 # ==============================

@@ -1,6 +1,6 @@
 # Dashboard Bambole Kids
 
-Dashboard simples em **Streamlit** para análise fictícia de vendas da loja Bambole Kids.
+Dashboard simples em **Streamlit** para análise de vendas da loja Bambole Kids com dados reais.
 
 O projeto conecta em um banco **PostgreSQL**, carrega os dados de vendas com `pandas` e apresenta indicadores, gráficos e tabelas para acompanhar faturamento, lucro, produtos vendidos, estoque e sugestão de reposição.
 
