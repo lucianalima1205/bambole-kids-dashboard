@@ -266,3 +266,29 @@ bambole_kids_dashboard/
 - A tabela `vendas` representa a transação.
 - A tabela `itens_venda` permite que uma mesma venda tenha vários produtos.
 - O dashboard trabalha com dados já existentes no PostgreSQL; ele não cria tabelas nem insere dados.
+
+---
+
+## Próximos passos
+
+Como evolução futura, o projeto pode ganhar um app em **React** para visualização dos produtos com imagens.
+
+A ideia inicial é usar:
+
+| Recurso | Uso planejado |
+| --- | --- |
+| React | Interface futura para catálogo ou vitrine de produtos |
+| Supabase Database | Cadastro e dados dos produtos |
+| Supabase Storage | Armazenamento das imagens no bucket `produtos` |
+| Coluna `imagem_path` | Caminho da imagem associada a cada produto |
+
+Exemplo de estrutura futura para imagens:
+
+```text
+bucket: produtos
+path: vestido-infantil-floral.jpg
+path: conjunto-infantil-verao.jpg
+path: sandalia-infantil-rosa.jpg
+```
+
+Essa melhoria ainda não faz parte do dashboard atual em Streamlit.
